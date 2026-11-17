@@ -1,21 +1,21 @@
-# NangorBlast
+# Nangor Blast
 
-**Tugas Besar IF2010 — Pemrograman Berorientasi Objek (2026)**  
+**Tugas Besar IF2010** 
+**Pemrograman Berorientasi Objek**  
 **Kelompok K1-D**  
-Program Studi Sistem dan Teknologi Informasi, Sekolah Teknik Elektro dan Informatika, Institut Teknologi Bandung
 
 ## Deskripsi Program
 
 **Nangor Blast** merupakan proyek permainan berbasis **Java** dengan konsep permainan berbasis grid yang terinspirasi dari Bomberman. Pemain menjelajahi map, menghindari dan mengalahkan musuh, memasang berbagai jenis bom, mengumpulkan power-up, serta mencapai pintu keluar sesuai ketentuan permainan.
 
-Kelompok K1-D mengimplementasikan **Map Type B — Blue Resort**, dengan mekanisme lingkungan khusus berupa **Water Tile**, **Switch**, dan **Gate**. Water Tile memengaruhi kecepatan gerak pemain, sedangkan Switch mengubah kondisi Gate yang membuka atau menutup jalur.
+Kelompok K1-D mengimplementasikan **Map Type B (Blue Resort)**, dengan mekanisme lingkungan khusus berupa **Water Tile**, **Switch**, dan **Gate**. Water Tile memengaruhi kecepatan gerak pemain, sedangkan Switch mengubah kondisi Gate yang membuka atau menutup jalur.
 
 ## Pembagian Tugas Milestone 1
 
 | Anggota | Tanggung jawab |
 | --- | --- |
 | **Olsen Danilson Sitohang** | Menyiapkan struktur awal pembagian tuga, scaffold repository (Gradle/Maven, Makefile, README awal), diagram **GameWorld, GameState, MainMenu, GameLoop, Score, InputHandler**, dan **Renderer**. |
-| **Davindra Rasya Nugroho** | Membuat repository GitHub, class diagram **Map** dan **Tile**; diagram mekanisme **Water Tile, Switch, Gate**, class diagram **Block** (3 jenis), diagram **MapValidator**. |
+| **Davindra Rasya Nugroho** | Membuat repository GitHub, class diagram **Map** dan **Tile**, diagram mekanisme **Water Tile, Switch, Gate**, class diagram **Block** (3 jenis), diagram **MapValidator**. |
 | **Willhelmina Rachel Silalahi** | Membuat drive terpusat dan dokumen pembagian tugas, class diagram **Player**, abstract class **Bomb** dan turunannya (**NormalBomb, PumpedBomb, RemoteBomb**) serta **Explosion**, menentukan atribut, method, inheritance, dan relasi. |
 | **Muhammad Dhafin Faidhulhaq** | Class diagram **Normal Enemy** (patrol/chase), **Boss Leviathan** dan **Power-Up**, menentukan atribut, method, dan relasi antarkelas. |
 
